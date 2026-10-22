@@ -110,11 +110,13 @@
         <h3>TOKKO POS untuk Android</h3>
         <p>Cocok untuk kasir tambahan yang praktis dibawa. Coba gratis 14 hari, langsung download.</p>
         <div class="btn-row" style="margin-top:14px;">
-          <a href="https://github.com/rehu2090/tosdev.github.io/releases/latest/download/TokkoPOS.apk" class="btn btn-primary">⬇ Download untuk Android</a>
+          <a href="https://github.com/rehu2090/tosdev.github.io/releases/latest/download/TokkoPOS.apk" class="btn btn-primary">⬇ Android 64-bit</a>
+          <a href="https://github.com/rehu2090/tosdev.github.io/releases/latest/download/TokkoPOS-32bit.apk" class="btn btn-outline">⬇ Android 32-bit</a>
         </div>
         <p style="margin-top:12px;font-size:0.88rem;color:var(--text-secondary);">
-          Gagal dipasang (&ldquo;aplikasi tidak kompatibel&rdquo;) atau HP/tablet lama?
-          <a href="https://github.com/rehu2090/tosdev.github.io/releases/latest/download/TokkoPOS-32bit.apk">Download versi 32-bit</a>
+          Pilih <strong>64-bit</strong> untuk hampir semua HP/tablet. Kalau gagal dipasang
+          (&ldquo;aplikasi tidak kompatibel&rdquo; atau &ldquo;aplikasi tidak terpasang&rdquo;),
+          pakai versi <strong>32-bit</strong>.
         </p>
       </div>
     </div>
@@ -149,10 +151,71 @@
         <div class="num">3</div>
         <div>
           <h4>Aktivasi lisensi</h4>
-          <p>Setelah cocok, hubungi kami untuk aktivasi lisensi sesuai kebutuhan usaha Anda.</p>
+          <p>Setelah cocok, hubungi kami untuk aktivasi lisensi sesuai kebutuhan usaha Anda &mdash; lihat <a href="#lisensi">alur aktivasi lisensi</a> di bawah.</p>
         </div>
       </div>
     </div>
+  </div>
+</section>
+
+<section id="lisensi">
+  <div class="container">
+    <div class="section-head">
+      <h2>Alur Aktivasi Lisensi</h2>
+      <p>Lisensi terikat ke satu perangkat. Prosesnya singkat dan dilakukan lewat WhatsApp/email.</p>
+    </div>
+    <div class="prose">
+      <div class="feature-row">
+        <div class="num">1</div>
+        <div>
+          <h4>Pilih paket</h4>
+          <p>Hubungi kami lewat <a href="kontak.html">WhatsApp atau email</a> dan sebutkan paket yang Anda butuhkan (Basic, Pro, atau Ultimate) serta lama berlangganan atau lisensi seumur hidup.</p>
+        </div>
+      </div>
+      <div class="feature-row">
+        <div class="num">2</div>
+        <div>
+          <h4>Kirim ID Perangkat</h4>
+          <p>Di aplikasi, buka menu <strong>Lisensi</strong>, salin <strong>ID Perangkat</strong> (ikon salin), lalu kirim ke kami bersama nama toko dan nomor WhatsApp Anda. ID ini hanya dipakai untuk membuat kode aktivasi.</p>
+        </div>
+      </div>
+      <div class="feature-row">
+        <div class="num">3</div>
+        <div>
+          <h4>Pembayaran</h4>
+          <p>Kami kirim rincian paket dan cara pembayaran. Setelah pembayaran dikonfirmasi, kami membuat kode aktivasi khusus untuk perangkat Anda.</p>
+        </div>
+      </div>
+      <div class="feature-row">
+        <div class="num">4</div>
+        <div>
+          <h4>Masukkan Kode Aktivasi</h4>
+          <p>Kami kirim kode aktivasi beserta bukti aktivasi. Di menu <strong>Lisensi</strong>, tempel kode pada kolom <strong>Kode Aktivasi</strong> lalu tekan <strong>Aktifkan</strong>. Selesai &mdash; tanpa perlu internet.</p>
+        </div>
+      </div>
+      <div class="feature-row">
+        <div class="num">5</div>
+        <div>
+          <h4>Ganti perangkat atau perpanjang</h4>
+          <p>Ganti komputer/HP, pasang ulang aplikasi, atau perpanjang langganan? Hubungi kami dan kirim ID Perangkat yang baru. Masa berlaku yang tersisa ikut dipindahkan ke perangkat baru. Data toko Anda tetap aman; buat file backup dulu sebelum pindah perangkat.</p>
+        </div>
+      </div>
+      <p style="margin-top:18px;font-size:0.93rem;">
+        <strong>Masa coba habis atau lisensi berakhir?</strong> Aplikasi tidak terkunci:
+        otomatis memakai paket <strong>Starter</strong> (gratis) dengan fitur dasar dan maksimal
+        200 produk. Data Anda tetap aman, dan semua fitur terbuka lagi begitu kode aktivasi dimasukkan.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="alt" id="pembeli" hidden>
+  <div class="container">
+    <div class="section-head">
+      <h2>Sudah Dipakai Toko-Toko Ini</h2>
+      <p>Pembeli lisensi TOKKO POS terbaru. Nama disamarkan dan ditampilkan dengan izin pembeli.</p>
+    </div>
+    <div class="grid grid-3" id="pembeli-list"></div>
   </div>
 </section>
 
@@ -181,5 +244,6 @@
 </footer>
 
 <script src="script.js"></script>
+<script src="pembeli-terbaru.js"></script>
 </body>
 </html>
