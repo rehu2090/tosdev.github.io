@@ -385,3 +385,21 @@ footer.site-footer .foot-inner {
 footer.site-footer .foot-links { display: flex; gap: 20px; flex-wrap: wrap; }
 footer.site-footer a { color: var(--text-secondary); font-size: 0.9rem; }
 footer.site-footer .copyright { color: var(--text-secondary); font-size: 0.85rem; }
+
+/* ---------- Galeri tampilan aplikasi ---------- */
+.shots-title { text-align: center; font-size: 1.1rem; margin: 34px 0 16px; }
+.shots-title:first-of-type { margin-top: 0; }
+.shots-win { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
+.shots-and { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; max-width: 900px; margin: 0 auto; }
+.shot { margin: 0; }
+.shot img {
+  display: block; width: 100%; height: auto;
+  border-radius: 12px; border: 1px solid var(--border); box-shadow: var(--shadow);
+  background: var(--surface);
+}
+.shot figcaption { text-align: center; margin-top: 8px; font-size: 0.88rem; font-weight: 600; color: var(--text-secondary); }
+.shots-note { text-align: center; margin-top: 22px; font-size: 0.85rem; color: var(--text-secondary); }
+@media (max-width: 760px) {
+  .shots-win { grid-template-columns: 1fr; }
+  .shots-and { grid-template-columns: repeat(2, 1fr); }
+}
